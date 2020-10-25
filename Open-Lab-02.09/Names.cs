@@ -6,7 +6,12 @@ namespace Open_Lab_02._09
     {
         public string ConcatName(string firstName, string lastName)
         {
-            throw new NotImplementedException();
+            string firstName = Peter;
+            string lastName = Marcin;           
+            string Name = String.Concat(lastName + " " + firstName);
+            Console.WriteLine(Name);
+            Console.ReadLine();
+
         }
     }
 }
